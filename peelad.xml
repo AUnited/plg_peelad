@@ -10,11 +10,12 @@
 <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 <description>PLG_PEELAD_XML_DESCRIPTION</description>
 <files>
-<folder>language</folder>
+<folder>styles</folder>
+<folder>js</folder>
 <filename plugin="peelad">peelad.php</filename>
 <filename>index.html</filename>
 </files>
-<languages>
+<languages folder="languages">
 <language tag="en-GB">language/en-GB/en-GB.plg_system_peelad.ini</language>
 <language tag="en-GB">language/en-GB/en-GB.plg_system_peelad.sys.ini</language>
 <language tag="ru-RU">language/ru-RU/ru-RU.plg_system_peelad.ini</language>
@@ -27,7 +28,7 @@
 <option value="0">JNo</option>
 <option value="1">JYes</option>
 </field>
-<field name="peelad_jquery" type="radio" class="" default="1" label="PLG_SYS_PEELAD_JQUERY" description="PLG_SYS_PEELAD_JQUERY_DESC">
+<field name="peelad_jquery" type="radio" class="" default="google" label="PLG_SYS_PEELAD_JQUERY" description="PLG_SYS_PEELAD_JQUERY_DESC">
 <option value="google">From Google</option>
 <option value="local1">Local v1.x</option>
 <option value="local2">Local v2.x</option>
